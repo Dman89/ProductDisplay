@@ -1,0 +1,186 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/css/main.css">
+</head>
+<body>
+  <div id="cards">
+
+  <div class="space"></div>
+    <div class="row text-center">
+    <div class="col-xs-12" id="links">
+      <!--   Anchor, "link tags <a>", are for codepen purposes, should be removed     TWO TOTAL  1/2-->
+      <a href="http://howrse.wikia.com/wiki/File:Arabian_Unicorn_-_Light_Gray.png" target="_blank">Image Credit: Read about this Unicorn</a>
+
+      <!--   Anchor, "link tags <a>", are for codepen purposes, should be removed     TWO TOTAL  2/2--><br/>
+        <a target="_blank" href="http://www.floridatoday.com/story/news/local/environment/2016/04/11/florida-crack-down-cobras/82887418/">Image Credit: Learn about this Cobra</a>
+    </div>
+  <div class="col-xs-12"><p>Click the image to see product display<br/>Click the "<i class="fa fa-info-circle"></i> Learn More Button" to learn more</p></div>
+  </div>
+  <div class="floatSingleItem relative hidden" id="popUpScreenForProducts">
+    <i id="xOutOfScreen" class="fa fa-times floatRight"></i>
+    <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 text-center">
+      <img src="styles/css/images/placeholder300.png" alt="" />
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
+      <div class="row">
+        <div class="col-xs-12">
+          <a href class="hidden-xs"><h1 class="">Product Title</h1></a>
+          <a href class="show-mobile"><h3>Product Title</h3></a>
+          <p class="hidden-mobile">Wayfarers pickled forage, irony direct trade sustainable cronut raw denim wolf shoreditch. <span class="hidden-landscape">Pour-over pug blue bottle, put a bird on it wolf cornhole sartorial thundercats truffaut quinoa marfa. Forage flannel freegan try-hard stumptown four dollar toast.</span><p class="hidden-xs hidden-landscape hidden-overflow indent">Sartorial microdosing shoreditch selfies butcher, bitters cred biodiesel shabby chic. Sriracha retro wolf thundercats aesthetic. Austin heirloom beard, letterpress photo booth pickled blog four dollar toast umami try-hard seitan bitters. Pabst scenester ethical normcore, pinterest gluten-free pug banh mi keffiyeh art party venmo you probably haven't heard of them humblebrag.</p></p>
+      </div>
+    </div>
+  </div>
+  <button class="btnProductDisplay btnCart"><span class="hidden-xs hidden-landscape">Add to </span><i class="fa fa-shopping-cart"></i></button>
+        </div>
+  <div class="container-fluid">
+    <div class="row threeD">
+      <div class="col-xs-12 col-md-6 col-lg-4 fivehundredpx" id="safespace">
+        <div class="hover">
+        <div class="card-container" id="one">
+          <div class="card sideA">
+            <div class="imgBackground">
+              <img src="styles/css/images/placeholder300.png" alt="" />
+            </div>
+            <p class="title">Pheonix</p>
+            <button href class="btnProductDisplay btnInfo" id="infoOne">
+      <i class="fa fa-info-circle"></i><span class="learnMore"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+          <div class="card sideB">
+            <div class="imgBackground backside">
+              <p class="backsideTitle">Pheonix</p>
+              <p class="body hidden-xs hidden-landscape">The Pheonix lives a long powerful life before dying and becoming reborn again from the ashes.</p>
+            </div>
+            <p class="title">$333</p>
+            <button href class="btnProductDisplay btnInfo" id="backOne">
+      <i class="fa fa-info-circle"></i><span class="artwork"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+        </div></div>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-4 fivehundredpx">
+        <div class="hover">
+        <div class="card-container" id="two">
+          <div class="card sideA">
+            <div class="imgBackground">
+              <img src="styles/css/images/unicorn.png" alt="" />
+            </div>
+            <p class="title highlight">Unicorn</p>
+            <button href class="btnProductDisplay btnInfo" id="infoTwo">
+      <i class="fa fa-info-circle"></i><span class="learnMore"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+          <div class="card sideB">
+            <div class="imgBackground backside unicorn">
+              <p class="backsideTitle">Arabian Unicorn</p>
+              <p class="body hidden-xs hidden-landscape">The Arabian Unicorn is said to have taught the mystic people of India about the Magic used to make "Magic Carpets". Legend goes that a small boy named Manvik noticed these shining, shimmering, magical horses with a horn.</p>
+            </div>
+            <p class="title highlight">$333</p>
+            <button href class="btnProductDisplay btnInfo" id="backTwo">
+      <i class="fa fa-info-circle"></i><span class="artwork"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-4 hover fivehundredpx">
+        <div class="hover">
+        <div class="card-container" id="three">
+          <div class="card sideA">
+            <div class="imgBackground">
+              <img src="styles/css/images/placeholder300.png" alt="" />
+            </div>
+            <p class="title">Pegasus</p>
+            <button href class="btnProductDisplay btnInfo" id="infoThree">
+      <i class="fa fa-info-circle"></i><span class="learnMore"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+          <div class="card sideB">
+
+            <div class="imgBackground backside">
+              <p class="backsideTitle">Pegasus</p>
+              <p class="body hidden-xs hidden-landscape">Pegasus is the Winged Horse God, and is the most know of Greek mythology.</p>
+            </div>
+            <p class="title">$333</p>
+            <button href class="btnProductDisplay btnInfo" id="backThree">
+      <i class="fa fa-info-circle"></i><span class="artwork"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- Extra Product -->
+      <!-- <div class="col-xs-12 col-md-6 col-lg-4 hover fivehundredpx">
+        <div class="hover">
+        <div class="card-container" id="four">
+          <div class="card sideA">
+            <div class="imgBackground">
+              <img src="http://www.gannett-cdn.com/-mm-/9065941e142eb769bb76794c742e08d1e14ee558/r=300/http/www.gannett-cdn.com/-mm-/9065941e142eb769bb76794c742e08d1e14ee558/r=300/http/www.gannett-cdn.com/-mm-/bd7c58d2cb91d57026c8f7ee0b9075e498a47c24/c=586-0-1884-1298/local/-/media/2015/09/03/Brevard/Brevard/635768632546609484-Screen-Shot-2015-09-03-at-7.47.14-AM.png"
+                alt="" />
+            </div>
+            <p class="title highlight">Cobra</p>
+            <button href class="btnProductDisplay btnInfo" id="infoFour">
+      <i class="fa fa-info-circle"></i><span class="learnMore"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+          <div class="card sideB">
+            <div class="imgBackground backside cobra">
+              <p class="backsideTitle">Cobra</p>
+              <p class="body hidden-xs hidden-landscape">The cobra is a general name to cover 270 different types of snakes. Cobras can appear to stand up and look a full grown man in the eyes.</p>
+            </div>
+            <p class="title highlight">$333</p>
+            <button href class="btnProductDisplay btnInfo" id="backFour">
+      <i class="fa fa-info-circle"></i><span class="artwork"></span>
+    </button>
+            <button href class="btnProductDisplay btnCart">
+      <span></span>
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" charset="utf-8"></script>
+  <script src="scripts/index.js" charset="utf-8"></script>
+</body>
+</html>
